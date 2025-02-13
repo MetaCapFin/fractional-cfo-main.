@@ -50,7 +50,7 @@ header {
 }
 
 .contact-container {
-    margin-right: 60px;
+    margin-right: 40px; /* Increased margin to move the button further away from the right margin */
 }
 
 .contact-button {
