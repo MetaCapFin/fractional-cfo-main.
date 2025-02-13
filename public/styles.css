@@ -672,7 +672,7 @@ footer {
 footer nav {
     display: flex;
     gap: 2px; /* 2px separation between links */
-    padding-left: 60px; /* Padding of 60px from the left margin */
+    margin-left: 60px; /* Margin of 60px from the left margin */
 }
 
 footer nav a {
