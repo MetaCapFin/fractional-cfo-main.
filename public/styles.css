@@ -50,7 +50,7 @@ header {
 }
 
 .contact-container {
-    margin-right: 20px;
+    margin-right: 0; /* Reset any margin on the container */
 }
 
 .contact-button {
@@ -60,6 +60,7 @@ header {
     text-decoration: none;
     border-radius: 20px;
     transition: box-shadow 0.3s ease-in-out;
+    margin-right: 60px; /* Add margin to the right of the button */
 }
 .contact-button:hover {
     box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
