@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Footer = () => (
-  <footer id="footer">
+  <footer className="footer">
     <div className="footer-logo-placeholder">LOGO HERE</div>
     <nav>
       <a href="#about-us">About Us</a>
