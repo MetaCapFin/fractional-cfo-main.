@@ -109,7 +109,7 @@ header {
 .gif-placeholder {
     width: calc(100% - 80px);
     height: 300px;
-    background-color: #ddd;
+    background-color: rgba(221, 221, 221, 0.5); /* Transparent background */
     margin: 10px 40px 40px 40px;
     display: flex;
     justify-content: center;
@@ -121,7 +121,7 @@ header {
 .catchphrase-container {
     width: calc(100% - 80px);
     height: 100px;
-    background-color: #eee;
+    background-color: rgba(238, 238, 238, 0.5); /* Transparent background */
     margin: 0 40px 40px 40px;
     display: flex;
     justify-content: center;
@@ -139,7 +139,7 @@ header {
 .container {
     width: calc(50% - 5px);
     height: 200px;
-    background-color: #f4f4f4;
+    background-color: rgba(244, 244, 244, 0.5); /* Transparent background */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -150,7 +150,7 @@ header {
 .mission-container {
     width: calc(100% - 80px);
     height: 300px;
-    background-color: #f4f4f4;
+    background-color: rgba(244, 244, 244, 0.5); /* Transparent background */
     margin: 10px 40px 40px 40px;
     display: flex;
     justify-content: center;
@@ -168,7 +168,7 @@ header {
 .stat-container {
     width: calc(25% - 15px);
     height: 150px;
-    background-color: #f4f4f4;
+    background-color: rgba(244, 244, 244, 0.5); /* Transparent background */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -198,6 +198,7 @@ header {
     border-top: 2px solid #333;
     border-bottom: 2px solid #333;
     padding: 20px 0;
+    background-color: rgba(244, 244, 244, 0.5); /* Transparent background */
 }
 
 .fractional-cfo-container h2 {
@@ -213,7 +214,7 @@ header {
 .placeholder {
     width: 300px; /* Increased width */
     height: 300px; /* Increased height */
-    background-color: #f4f4f4;
+    background-color: rgba(244, 244, 244, 0.5); /* Transparent background */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -237,6 +238,7 @@ header {
     border-top: 2px solid #333;
     border-bottom: 2px solid #333;
     padding: 20px 0;
+    background-color: rgba(244, 244, 244, 0.5); /* Transparent background */
 }
 
 .new-container h2 {
@@ -251,7 +253,7 @@ header {
 
 .new-placeholder {
     width: calc(50% - 10px); /* Adjusted width for two placeholders */
-    background-color: #f4f4f4;
+    background-color: rgba(244, 244, 244, 0.5); /* Transparent background */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -279,6 +281,7 @@ header {
     border-top: 2px solid #333;
     border-bottom: 2px solid #333;
     padding: 20px 0;
+    background-color: rgba(244, 244, 244, 0.5); /* Transparent background */
 }
 
 .key-values-container h2 {
@@ -294,7 +297,7 @@ header {
 .key-values-placeholder {
     width: 150px; /* Fixed width */
     height: 150px; /* Fixed height */
-    background-color: #f4f4f4;
+    background-color: rgba(244, 244, 244, 0.5); /* Transparent background */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -308,6 +311,7 @@ header {
     margin: 50px 40px;
     text-align: center;
     padding: 20px 0;
+    background-color: rgba(244, 244, 244, 0.5); /* Transparent background */
 }
 
 .additional-container .half-container {
@@ -318,7 +322,7 @@ header {
 
 .half-container .left, .half-container .right {
     width: calc(50% - 10px);
-    background-color: #f4f4f4;
+    background-color: rgba(244, 244, 244, 0.5); /* Transparent background */
     padding: 20px;
     box-sizing: border-box;
     font-size: 18px;
