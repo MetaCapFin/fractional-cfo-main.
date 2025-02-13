@@ -53,18 +53,25 @@ header {
 /* Additional CSS from your original file */
 .sub-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 20px;
-    padding-top: 20px; /* Same padding above and below */
-    background-color: #f4f4f4;
+    background: linear-gradient(45deg, purple, cyan);
     margin-top: 60px; /* Adjusted for fixed header */
     margin-bottom: 20px;
+    height: 200px; /* Adjust height as needed */
 }
+
+.sub-header img {
+    width: 100px; /* Adjust width as needed */
+    height: 100px; /* Adjust height as needed */
+    object-fit: contain; /* Ensure the image maintains its aspect ratio */
+}
+
 .sub-header h1 {
     margin: 0;
-    flex-grow: 1;
-    text-align: center;
+    margin-left: 20px; /* Space between the logo and the text */
+    color: white; /* Ensure the text is readable on the gradient background */
 }
 .logo-placeholder {
     width: 100px;
