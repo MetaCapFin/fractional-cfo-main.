@@ -53,7 +53,7 @@ header {
     margin-right: 20px;
 }
 
-.contact-button {
+.button {
     background: linear-gradient(to right, purple, cyan);
     color: white;
     padding: 10px 20px;
@@ -62,7 +62,7 @@ header {
     transition: box-shadow 0.3s ease-in-out;
 }
 
-.contact-button:hover {
+.button:hover {
     box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
 }
 
@@ -175,18 +175,19 @@ header {
 }
 
 .schedule-button {
-    background-color: #ff6600;
+    background: linear-gradient(to right, purple, cyan);
     color: white;
-    padding: 20px 40px; /* Increased padding for larger size */
+    padding: 10px 20px;
     text-decoration: none;
     border-radius: 20px;
+    transition: box-shadow 0.3s ease-in-out;
     margin: 50px auto;
     display: block;
     width: fit-content;
 }
 
 .schedule-button:hover {
-    background-color: #ff8533;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
 }
 
 .fractional-cfo-container {
@@ -328,31 +329,33 @@ header {
 }
 
 .download-button {
-    background-color: #ff6600;
+    background: linear-gradient(to right, purple, cyan);
     color: white;
-    padding: 20px 40px; /* Increased padding for larger size */
+    padding: 10px 20px;
     text-decoration: none;
     border-radius: 20px;
+    transition: box-shadow 0.3s ease-in-out;
     margin: 50px auto;
     display: block;
     width: fit-content;
 }
 
 .download-button:hover {
-    background-color: #ff8533;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
 }
 
 .subscribe-button {
-    background-color: #ff6600;
+    background: linear-gradient(to right, purple, cyan);
     color: white;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 20px;
+    transition: box-shadow 0.3s ease-in-out;
     margin-right: 20px;
 }
 
 .subscribe-button:hover {
-    background-color: #ff8533;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
 }
 
 .footer-logo-placeholder {
