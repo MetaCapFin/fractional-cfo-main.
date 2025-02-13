@@ -659,6 +659,16 @@ header {
     box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
 }
 
+.footer {
+    position: relative; /* Ensure the footer container is positioned relative */
+    padding: 20px; /* Add padding if needed */
+    background-color: #333; /* Example background color for the footer */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .subscribe-button {
     background: linear-gradient(to right, purple, cyan);
     color: white;
@@ -666,7 +676,8 @@ header {
     text-decoration: none;
     border-radius: 20px;
     transition: box-shadow 0.3s ease-in-out;
-    margin-right: 20px;
+    position: absolute; /* Position the button absolutely */
+    right: 60px; /* 60px from the right margin */
 }
 
 .subscribe-button:hover {
@@ -683,4 +694,18 @@ header {
     align-items: center;
     font-size: 14px;
     color: #333;
+}
+
+footer nav {
+    display: flex;
+    gap: 20px; /* Adjust gap between nav links */
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
 }
