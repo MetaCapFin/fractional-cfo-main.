@@ -4,7 +4,7 @@ import Image from 'next/image';
 const SubHeader = () => (
   <div className="sub-header">
     <div className="logo-container">
-      <Image src="/Fractional CFO Logo.png" alt="Fractional CFO Logo" width={100} height={100} />
+      <Image src="/Fractional CFO Logo.png" alt="Fractional CFO Logo" width={1080} height={1080} />
     </div>
     <div className="text-container">
       <h1>FRACTIONAL CFO</h1>
