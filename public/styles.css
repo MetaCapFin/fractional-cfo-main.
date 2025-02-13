@@ -659,14 +659,41 @@ header {
     box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
 }
 
-.footer {
-    position: relative; /* Ensure the footer container is positioned relative */
-    padding: 20px; /* Add padding if needed */
-    background-color: #333; /* Example background color for the footer */
+footer {
+    background: linear-gradient(to bottom, rgba(51, 51, 51, 1), rgba(51, 51, 51, 0));
     color: white;
+    padding: 20px; /* Adjusted padding to maintain spacing */
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative; /* Ensure the footer container is positioned relative */
+}
+
+footer nav {
+    display: flex;
+    gap: 2px; /* 2px separation between links */
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
+
+.footer-logo-placeholder {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #333;
 }
 
 .subscribe-button {
@@ -682,30 +709,4 @@ header {
 
 .subscribe-button:hover {
     box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
-}
-
-.footer-logo-placeholder {
-    width: 100px;
-    height: 100px;
-    background-color: #ccc;
-    margin-left: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 14px;
-    color: #333;
-}
-
-footer nav {
-    display: flex;
-    gap: 20px; /* Adjust gap between nav links */
-}
-
-footer nav a {
-    color: white;
-    text-decoration: none;
-}
-
-footer nav a:hover {
-    text-decoration: underline;
 }
