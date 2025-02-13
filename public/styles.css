@@ -34,21 +34,6 @@ header {
     z-index: 1000;
 }
 
-.nav-links {
-    display: flex;
-    gap: 2px; /* 2px separation between links */
-}
-
-.nav-links a {
-    color: white;
-    text-decoration: none;
-    padding: 0 10px;
-}
-
-.nav-links a:hover {
-    text-decoration: underline;
-}
-
 .contact-container {
     margin-right: 0; /* Reset any margin on the container */
 }
