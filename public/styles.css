@@ -50,10 +50,9 @@ header {
     box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
 }
 
-/* Additional CSS from your original file */
+/* Updated CSS for SubHeader */
 .sub-header {
     display: flex;
-    justify-content: center;
     align-items: center;
     padding: 20px;
     background: linear-gradient(45deg, purple, cyan);
@@ -62,28 +61,22 @@ header {
     height: 200px; /* Adjust height as needed */
 }
 
-.sub-header img {
-    width: 100px; /* Adjust width as needed */
-    height: 100px; /* Adjust height as needed */
-    object-fit: contain; /* Ensure the image maintains its aspect ratio */
+.logo-container {
+    margin-right: 20px; /* Space between the logo and the text */
 }
 
-.sub-header h1 {
+.text-container h1 {
     margin: 0;
-    margin-left: 20px; /* Space between the logo and the text */
     color: white; /* Ensure the text is readable on the gradient background */
 }
-.logo-placeholder {
-    width: 100px;
-    height: 100px;
-    background-color: #ccc;
-    margin-left: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 14px;
-    color: #333;
+
+.text-container p {
+    margin: 0;
+    color: white; /* Ensure the text is readable on the gradient background */
+    font-size: 0.8em; /* Smaller font size for the subtitle */
 }
+
+/* Additional CSS from your original file */
 .gif-placeholder {
     width: calc(100% - 80px);
     height: 300px;
@@ -95,6 +88,7 @@ header {
     font-size: 18px;
     color: #333;
 }
+
 .catchphrase-container {
     width: calc(100% - 80px);
     height: 100px;
@@ -106,11 +100,13 @@ header {
     font-size: 24px;
     color: #333;
 }
+
 .side-by-side-container {
     display: flex;
     justify-content: space-between;
     margin: 0 40px 10px 40px;
 }
+
 .container {
     width: calc(50% - 5px);
     height: 200px;
@@ -121,6 +117,7 @@ header {
     font-size: 18px;
     color: #333;
 }
+
 .mission-container {
     width: calc(100% - 80px);
     height: 300px;
@@ -132,11 +129,13 @@ header {
     font-size: 24px;
     color: #333;
 }
+
 .statistics-container {
     display: flex;
     justify-content: space-between;
     margin: 0 40px 40px 40px;
 }
+
 .stat-container {
     width: calc(25% - 15px);
     height: 150px;
@@ -147,6 +146,7 @@ header {
     font-size: 18px;
     color: #333;
 }
+
 .schedule-button {
     background-color: #ff6600;
     color: white;
@@ -157,9 +157,11 @@ header {
     display: block;
     width: fit-content;
 }
+
 .schedule-button:hover {
     background-color: #ff8533;
 }
+
 .fractional-cfo-container {
     width: calc(100% - 80px);
     margin: 50px 40px;
@@ -168,14 +170,17 @@ header {
     border-bottom: 2px solid #333;
     padding: 20px 0;
 }
+
 .fractional-cfo-container h2 {
     margin-bottom: 50px;
 }
+
 .placeholders {
     display: flex;
     justify-content: space-between;
     padding-bottom: 50px; /* Padding equal to the top padding */
 }
+
 .placeholder {
     width: 300px; /* Increased width */
     height: 300px; /* Increased height */
@@ -187,12 +192,15 @@ header {
     color: #333;
     margin: 0 10px; /* Adjusted margin for spacing */
 }
+
 .placeholders .placeholder:first-child {
     margin-left: 0; /* Remove left margin for the first placeholder */
 }
+
 .placeholders .placeholder:last-child {
     margin-right: 0; /* Remove right margin for the last placeholder */
 }
+
 .new-container {
     width: calc(100% - 80px);
     margin: 50px 40px;
@@ -201,14 +209,17 @@ header {
     border-bottom: 2px solid #333;
     padding: 20px 0;
 }
+
 .new-container h2 {
     margin-bottom: 50px;
 }
+
 .new-placeholders {
     display: flex;
     justify-content: space-between;
     padding-bottom: 50px; /* Padding equal to the top padding */
 }
+
 .new-placeholder {
     width: calc(50% - 10px); /* Adjusted width for two placeholders */
     background-color: #f4f4f4;
@@ -221,14 +232,17 @@ header {
     padding: 20px;
     box-sizing: border-box;
 }
+
 .new-placeholder h3 {
     margin-bottom: 20px;
 }
+
 .new-placeholder ul {
     list-style-type: disc;
     padding-left: 20px;
     text-align: left;
 }
+
 .key-values-container {
     width: calc(100% - 80px);
     margin: 50px 40px;
@@ -237,14 +251,17 @@ header {
     border-bottom: 2px solid #333;
     padding: 20px 0;
 }
+
 .key-values-container h2 {
     margin-bottom: 50px;
 }
+
 .key-values-placeholders {
     display: flex;
     justify-content: space-between;
     padding-bottom: 50px; /* Padding equal to the top padding */
 }
+
 .key-values-placeholder {
     width: 150px; /* Fixed width */
     height: 150px; /* Fixed height */
@@ -256,17 +273,20 @@ header {
     color: #333;
     margin: 0 5px; /* Reduced margin for closer spacing */
 }
+
 .additional-container {
     width: calc(100% - 80px);
     margin: 50px 40px;
     text-align: center;
     padding: 20px 0;
 }
+
 .additional-container .half-container {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
 }
+
 .half-container .left, .half-container .right {
     width: calc(50% - 10px);
     background-color: #f4f4f4;
@@ -275,6 +295,7 @@ header {
     font-size: 18px;
     color: #333;
 }
+
 .download-button {
     background-color: #ff6600;
     color: white;
@@ -285,11 +306,22 @@ header {
     display: block;
     width: fit-content;
 }
+
 .download-button:hover {
     background-color: #ff8533;
 }
+
 .subscribe-button {
-    background-color: #ff6600
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.subscribe-button:hover {
+    background-color: #ff8533;
 }
 
 .footer-logo-placeholder {
