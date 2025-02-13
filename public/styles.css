@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(45deg, purple, cyan);
+    background: linear-gradient(to right, purple, cyan);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -52,7 +52,7 @@ header {
 }
 
 .contact-button {
-    background: linear-gradient(45deg, purple, cyan);
+    background: linear-gradient(to right, purple, cyan);
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -69,7 +69,7 @@ header {
     display: flex;
     align-items: center;
     padding: 20px;
-    background: linear-gradient(45deg, purple, cyan);
+    background: linear-gradient(to right, purple, cyan);
     margin-top: 60px; /* Adjusted for fixed header */
     margin-bottom: 20px;
     height: 200px; /* Adjust height as needed */
@@ -362,4 +362,3 @@ header {
     font-size: 14px;
     color: #333;
 }
-
