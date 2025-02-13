@@ -66,12 +66,10 @@ header {
     box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
 }
 
-/* Updated CSS for SubHeader */
 .sub-header {
     display: flex;
     align-items: center;
     padding: 20px;
-    background: linear-gradient(to right, purple, cyan);
     margin-top: 60px; /* Adjusted for fixed header */
     margin-bottom: 20px;
     height: 200px; /* Adjust height as needed */
