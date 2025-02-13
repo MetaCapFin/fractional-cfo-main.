@@ -62,7 +62,15 @@ header {
 }
 
 .logo-container {
+    flex: 0 0 auto;
+    width: 100px; /* Adjust width as needed */
+    height: 100px; /* Adjust height as needed */
     margin-right: 20px; /* Space between the logo and the text */
+}
+
+.text-container {
+    flex: 1;
+    text-align: center;
 }
 
 .text-container h1 {
