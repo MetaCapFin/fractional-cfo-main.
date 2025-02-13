@@ -2,10 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right, purple, cyan);
+    background: linear-gradient(to right, purple, cyan), 
+                linear-gradient(to bottom left, black, transparent 50%, black);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-blend-mode: multiply;
 }
 
 #__next {
