@@ -669,22 +669,6 @@ footer {
     position: relative; /* Ensure the footer container is positioned relative */
 }
 
-footer nav {
-    display: flex;
-    gap: 2px; /* 2px separation between links */
-    margin-left: 60px; /* Margin of 60px from the left margin */
-}
-
-footer nav a {
-    color: white;
-    text-decoration: none;
-    padding: 0 10px;
-}
-
-footer nav a:hover {
-    text-decoration: underline;
-}
-
 .footer-logo-placeholder {
     width: 100px;
     height: 100px;
