@@ -52,7 +52,7 @@ header {
 }
 
 .contact-container {
-    margin-right: 0; /* Reset any margin on the container */
+    margin-right: 60px; /* Match the margin-right of the footer's contact button */
 }
 
 .contact-button, .button, .schedule-button, .download-button, .subscribe-button {
