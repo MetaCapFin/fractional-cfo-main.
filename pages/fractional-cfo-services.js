@@ -1,13 +1,40 @@
 import React from 'react';
+import Head from 'next/head';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import SubHeader from '../components/SubHeader';
+import GifPlaceholder from '../components/GifPlaceholder';
+import CatchphraseContainer from '../components/CatchphraseContainer';
+import SideBySideContainer from '../components/SideBySideContainer';
+import MissionContainer from '../components/MissionContainer';
+import StatisticsContainer from '../components/StatisticsContainer';
+import FractionalCFOContainer from '../components/FractionalCFOContainer';
+import NewContainer from '../components/NewContainer';
+import KeyValuesContainer from '../components/KeyValuesContainer';
+import AdditionalContainer from '../components/AdditionalContainer';
 
-const FractionalCFO = () => {
-    return (
-        <div>
-            <h1>Fractional CFO Services</h1>
-            <p>Welcome to our Fractional CFO Services page. Here, we offer...</p>
-            {/* Add more content as needed */}
-        </div>
-    );
-};
+const FractionalCFO = () => (
+  <div>
+    <Head>
+      <title>Fractional CFO Services</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </Head>
+    <Header />
+    <main>
+      <SubHeader />
+      <GifPlaceholder />
+      <CatchphraseContainer />
+      <SideBySideContainer />
+      <MissionContainer />
+      <StatisticsContainer />
+      <a href="#schedule-meeting" className="schedule-button">SCHEDULE A MEETING</a>
+      <FractionalCFOContainer />
+      <NewContainer />
+      <KeyValuesContainer />
+      <AdditionalContainer />
+    </main>
+    <Footer />
+  </div>
+);
 
 export default FractionalCFO;
