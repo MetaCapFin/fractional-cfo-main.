@@ -284,17 +284,6 @@ header {
     align-items: center;
     font-size: 18px;
     color: #333;
-    padding: 20px
-
-    .new-placeholder {
-    width: calc(50% - 10px); /* Adjusted width for two placeholders */
-    background-color: rgba(244, 244, 244, 0.5); /* Transparent background */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 18px;
-    color: #333;
     padding: 20px;
     box-sizing: border-box;
 }
