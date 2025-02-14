@@ -1,5 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
+import Link from 'next/link';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import SubHeader from '../components/SubHeader';
@@ -18,6 +19,9 @@ const FractionalCFO = () => (
       <MissionContainer />
       <a href="#schedule-meeting" className="schedule-button">SCHEDULE A MEETING</a>
       <FractionalCFOContainer />
+      <Link href="/">
+        <a className="back-button">Back to Main Page</a>
+      </Link>
     </main>
     <Footer />
   </div>
