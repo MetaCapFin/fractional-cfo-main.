@@ -20,6 +20,8 @@ body {
 
 main {
     flex: 1;
+    padding-left: 200px; /* Add padding of 200px from the left */
+    padding-right: 200px; /* Add padding of 200px from the right */
 }
 
 header {
@@ -34,6 +36,8 @@ header {
     width: 100%;
     top: 0;
     z-index: 1000;
+    padding-left: 200px; /* Add padding of 200px from the left */
+    padding-right: 200px; /* Add padding of 200px from the right */
 }
 
 .nav-links {
@@ -92,6 +96,8 @@ header {
     position: relative;
     z-index: 500; /* Ensure sub-header is above other elements */
     background-color: transparent; /* Make the sub-header background completely transparent */
+    padding-left: 200px; /* Add padding of 200px from the left */
+    padding-right: 200px; /* Add padding of 200px from the right */
 }
 
 .text-container {
@@ -125,6 +131,8 @@ header {
     align-items: center;
     font-size: 18px;
     color: #333;
+    padding-left: 200px; /* Add padding of 200px from the left */
+    padding-right: 200px; /* Add padding of 200px from the right */
 }
 
 .catchphrase-container {
@@ -137,12 +145,16 @@ header {
     align-items: center;
     font-size: 24px;
     color: #333;
+    padding-left: 200px; /* Add padding of 200px from the left */
+    padding-right: 200px; /* Add padding of 200px from the right */
 }
 
 .side-by-side-container {
     display: flex;
     justify-content: space-between;
     margin: 0 40px 10px 40px;
+    padding-left: 200px; /* Add padding of 200px from the left */
+    padding-right: 200px; /* Add padding of 200px from the right */
 }
 
 .container {
@@ -154,6 +166,8 @@ header {
     align-items: center;
     font-size: 18px;
     color: #333;
+    padding-left: 200px; /* Add padding of 200px from the left */
+    padding-right: 200px; /* Add padding of 200px from the right */
 }
 
 .mission-container {
@@ -166,12 +180,16 @@ header {
     align-items: center;
     font-size: 24px;
     color: #333;
+    padding-left: 200px; /* Add padding of 200px from the left */
+    padding-right: 200px; /* Add padding of 200px from the right */
 }
 
 .statistics-container {
     display: flex;
     justify-content: space-between;
     margin: 0 40px 40px 40px;
+    padding-left: 200px; /* Add padding of 200px from the left */
+    padding-right: 200px; /* Add padding of 200px from the right */
 }
 
 .stat-container {
@@ -183,6 +201,8 @@ header {
     align-items: center;
     font-size: 18px;
     color: #333;
+    padding-left: 200px; /* Add padding of 200px from the left */
+    padding-right: 200px; /* Add padding of 200px from the right */
 }
 
 .schedule-button {
@@ -195,6 +215,8 @@ header {
     margin: 50px auto;
     display: block;
     width: fit-content;
+    padding-left: 200px; /* Add padding of 200px from the left */
+    padding-right: 200px; /* Add padding of 200px from the right */
 }
 
 .schedule-button:hover {
@@ -209,6 +231,8 @@ header {
     border-bottom: 2px solid #333;
     padding: 20px 0;
     background-color: rgba(244, 244, 244, 0.5); /* Transparent background */
+    padding-left: 200px; /* Add padding of 200px from the left */
+    padding-right: 200px; /* Add padding of 200px from the right */
 }
 
 .fractional-cfo-container h2 {
@@ -219,6 +243,8 @@ header {
     display: flex;
     justify-content: space-between;
     padding-bottom: 50px; /* Padding equal to the top padding */
+    padding-left: 200px; /* Add padding of 200px from the left */
+    padding-right: 200px; /* Add padding of 200px from the right */
 }
 
 .placeholder {
@@ -231,6 +257,8 @@ header {
     font-size: 18px;
     color: #333;
     margin: 0 10px; /* Adjusted margin for spacing */
+    padding-left: 200px; /* Add padding of 200px from the left */
+    padding-right: 200px; /* Add padding of 200px from the right */
 }
 
 .placeholders .placeholder:first-child {
@@ -249,6 +277,8 @@ header {
     border-bottom: 2px solid #333;
     padding: 20px 0;
     background-color: rgba(244, 244, 244, 0.5); /* Transparent background */
+    padding-left: 200px; /* Add padding of 200px from the left */
+    padding-right: 200px; /* Add padding of 200px from the right */
 }
 
 .new-container h2 {
@@ -259,6 +289,8 @@ header {
     display: flex;
     justify-content: space-between;
     padding-bottom: 50px; /* Padding equal to the top padding */
+    padding-left: 200px; /* Add padding of 200px from the left */
+    padding-right: 200px; /* Add padding of 200px from the right */
 }
 
 .new-placeholder {
@@ -272,6 +304,8 @@ header {
     color: #333;
     padding: 20px;
     box-sizing: border-box;
+    padding-left: 200px; /* Add padding of 200px from the left */
+    padding-right: 200px; /* Add padding of 200px from the right */
 }
 
 .new-placeholder h3 {
@@ -292,6 +326,8 @@ header {
     border-bottom: 2px solid #333;
     padding: 20px 0;
     background-color: rgba(244, 244, 244, 0.5); /* Transparent background */
+    padding-left: 200px; /* Add padding of 200px from the left */
+    padding-right: 200px; /* Add padding of 200px from the right */
 }
 
 .key-values-container h2 {
@@ -302,6 +338,8 @@ header {
     display: flex;
     justify-content: space-between;
     padding-bottom: 50px; /* Padding equal to the top padding */
+    padding-left: 200px; /* Add padding of 200px from the left */
+    padding-right: 200px; /* Add padding of 200px from the right */
 }
 
 .key-values-placeholder {
@@ -314,6 +352,8 @@ header {
     font-size: 18px;
     color: #333;
     margin: 0 5px; /* Reduced margin for closer spacing */
+    padding-left: 200px; /* Add padding of 200px from the left */
+    padding-right: 200px; /* Add padding of 200px from the right */
 }
 
 .additional-container {
@@ -322,12 +362,16 @@ header {
     text-align: center;
     padding: 20px 0;
     background-color: rgba(244, 244, 244, 0.5); /* Transparent background */
+    padding-left: 200px; /* Add padding of 200px from the left */
+    padding-right: 200px; /* Add padding of 200px from the right */
 }
 
 .additional-container .half-container {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+    padding-left: 200px; /* Add padding of 200px from the left */
+    padding-right: 200px; /* Add padding of 200px from the right */
 }
 
 .half-container .left, .half-container .right {
@@ -337,6 +381,8 @@ header {
     box-sizing: border-box;
     font-size: 18px;
     color: #333;
+    padding-left: 200px; /* Add padding of 200px from the left */
+    padding-right: 200px; /* Add padding of 200px from the right */
 }
 
 .download-button {
@@ -349,6 +395,8 @@ header {
     margin: 50px auto;
     display: block;
     width: fit-content;
+    padding-left: 200px; /* Add padding of 200px from the left */
+    padding-right: 200px; /* Add padding of 200px from the right */
 }
 
 .download-button:hover {
@@ -364,6 +412,8 @@ footer {
     align-items: center;
     position: relative; /* Ensure the footer container is positioned relative */
     z-index: 1000; /* Ensure footer is above other elements */
+    padding-left: 200px; /* Add padding of 200px from the left */
+    padding-right: 200px; /* Add padding of 200px from the right */
 }
 
 .footer-logo-placeholder {
@@ -376,6 +426,8 @@ footer {
     align-items: center;
     font-size: 14px;
     color: #333;
+    padding-left: 200px; /* Add padding of 200px from the left */
+    padding-right: 200px; /* Add padding of 200px from the right */
 }
 
 .subscribe-button {
@@ -387,6 +439,8 @@ footer {
     transition: box-shadow 0.3s ease-in-out;
     position: absolute; /* Position the button absolutely */
     right: 60px; /* 60px from the right margin */
+    padding-left: 200px; /* Add padding of 200px from the left */
+    padding-right: 200px; /* Add padding of 200px from the right */
 }
 
 .subscribe-button:hover {
