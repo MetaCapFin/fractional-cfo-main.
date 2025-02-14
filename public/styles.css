@@ -65,6 +65,10 @@ header {
     border: 2px solid white;
 }
 
+.contact-button {
+    text-decoration: none; /* Remove underline */
+}
+
 .contact-button:hover, .button:hover, .schedule-button:hover, .download-button:hover, .subscribe-button:hover {
     box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
 }
@@ -431,6 +435,7 @@ footer {
     .contact-button {
         padding: 5px 10px; /* Smaller padding for mobile */
         font-size: 14px; /* Smaller font size for mobile */
+        text-decoration: none; /* Remove underline */
     }
 
     .sub-header {
