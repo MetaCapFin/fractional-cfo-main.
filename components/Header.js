@@ -14,11 +14,6 @@ const Header = () => (
         <a>Media</a>
       </Link>
     </nav>
-    <div className="contact-container">
-      <Link href="#contact-us">
-        <a className="contact-button">CONTACT US</a>
-      </Link>
-    </div>
   </header>
 );
 
