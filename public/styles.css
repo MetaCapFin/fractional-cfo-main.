@@ -25,11 +25,11 @@ main {
 header {
     background: linear-gradient(to bottom, rgba(51, 51, 51, 1), rgba(51, 51, 51, 0));
     color: white;
-    padding: 10px 20px; /* Adjusted padding to maintain spacing */
+    padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 60px; /* Fixed height for header */
+    height: 60px;
     position: fixed;
     width: 100%;
     top: 0;
@@ -38,7 +38,7 @@ header {
 
 .nav-links {
     display: flex;
-    gap: 2px; /* 2px separation between links */
+    gap: 2px;
 }
 
 .nav-links a {
@@ -52,7 +52,7 @@ header {
 }
 
 .contact-container {
-    margin-right: 60px; /* Match the margin-right of the footer's contact button */
+    margin-right: 60px;
 }
 
 .contact-button, .button, .schedule-button, .download-button, .subscribe-button {
@@ -62,24 +62,24 @@ header {
     text-decoration: none;
     border-radius: 20px;
     transition: box-shadow 0.3s ease-in-out;
-    border: 2px solid white; /* Add a white border */
+    border: 2px solid white;
 }
 
 .contact-button:hover, .button:hover, .schedule-button:hover, .download-button:hover, .subscribe-button:hover {
-    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7); /* Keep the glow effect */
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
 }
 
 .sub-header {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 60px; /* Add padding of 60px from the container's margin */
-    margin-top: 60px; /* Adjusted for fixed header */
+    padding: 60px;
+    margin-top: 60px;
     margin-bottom: 20px;
-    height: 200px; /* Adjust height as needed */
+    height: 200px;
     position: relative;
-    z-index: 500; /* Ensure sub-header is above other elements */
-    background-color: transparent; /* Make the sub-header background completely transparent */
+    z-index: 500;
+    background-color: transparent;
 }
 
 .text-container {
@@ -88,25 +88,25 @@ header {
 
 .text-container h1 {
     margin: 0;
-    color: white; /* Ensure the text is readable on the gradient background */
+    color: white;
 }
 
 .text-container p {
     margin: 0;
-    color: white; /* Ensure the text is readable on the gradient background */
-    font-size: 0.8em; /* Smaller font size for the subtitle */
+    color: white;
+    font-size: 0.8em;
 }
 
 .sub-header-logo {
-    width: 100px; /* Adjust width as needed */
-    height: 100px; /* Adjust height as needed */
-    margin-right: 20px; /* Space between the logo and the text */
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
 }
 
 .aspect-ratio-16-9 {
     position: relative;
     width: 100%;
-    padding-top: 56.25%; /* 16:9 aspect ratio */
+    padding-top: 56.25%;
 }
 
 .aspect-ratio-16-9 > * {
@@ -118,10 +118,10 @@ header {
 }
 
 .gif-placeholder {
-    width: calc((100% - 80px) * 2 / 3); /* Reduce width by a third */
-    margin: 10px auto; /* Center the container */
+    width: 90%;
+    margin: 10px auto;
     height: 300px;
-    background-color: rgba(221, 221, 221, 0.5); /* Transparent background */
+    background-color: rgba(221, 221, 221, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -130,10 +130,10 @@ header {
 }
 
 .catchphrase-container {
-    width: calc((100% - 80px) * 2 / 3); /* Reduce width by a third */
-    margin: 0 auto 40px auto; /* Center the container */
+    width: 90%;
+    margin: 0 auto 40px auto;
     height: 100px;
-    background-color: rgba(238, 238, 238, 0.5); /* Transparent background */
+    background-color: rgba(238, 238, 238, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -142,16 +142,17 @@ header {
 }
 
 .side-by-side-container {
-    width: calc((100% - 80px) * 2 / 3); /* Reduce width by a third */
-    margin: 0 auto 10px auto; /* Center the container */
+    width: 90%;
+    margin: 0 auto 10px auto;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .container {
-    width: calc((50% - 5px) * 2 / 3); /* Reduce width by a third */
+    width: 100%;
     height: 200px;
-    background-color: rgba(244, 244, 244, 0.5); /* Transparent background */
+    background-color: rgba(244, 244, 244, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -160,10 +161,10 @@ header {
 }
 
 .mission-container {
-    width: calc((100% - 80px) * 2 / 3); /* Reduce width by a third */
-    margin: 10px auto 40px auto; /* Center the container */
+    width: 90%;
+    margin: 10px auto 40px auto;
     height: 300px;
-    background-color: rgba(244, 244, 244, 0.5); /* Transparent background */
+    background-color: rgba(244, 244, 244, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -172,16 +173,17 @@ header {
 }
 
 .statistics-container {
-    width: calc((100% - 80px) * 2 / 3); /* Reduce width by a third */
-    margin: 0 auto 40px auto; /* Center the container */
+    width: 90%;
+    margin: 0 auto 40px auto;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .stat-container {
-    width: calc((25% - 15px) * 2 / 3); /* Reduce width by a third */
+    width: 100%;
     height: 150px;
-    background-color: rgba(244, 244, 244, 0.5); /* Transparent background */
+    background-color: rgba(244, 244, 244, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -199,7 +201,7 @@ header {
     margin: 50px auto;
     display: block;
     width: fit-content;
-    border: 2px solid white; /* Add a white border */
+    border: 2px solid white;
 }
 
 .schedule-button:hover {
@@ -207,13 +209,13 @@ header {
 }
 
 .fractional-cfo-container {
-    width: calc((100% - 80px) * 2 / 3); /* Reduce width by a third */
-    margin: 50px auto; /* Center the container */
+    width: 90%;
+    margin: 50px auto;
     text-align: center;
     border-top: 2px solid #333;
     border-bottom: 2px solid #333;
     padding: 20px 0;
-    background-color: rgba(244, 244, 244, 0.5); /* Transparent background */
+    background-color: rgba(244, 244, 244, 0.5);
 }
 
 .fractional-cfo-container h2 {
@@ -221,40 +223,32 @@ header {
 }
 
 .placeholders {
-    width: calc((100% - 80px) * 2 / 3); /* Reduce width by a third */
-    margin: 0 auto 50px auto; /* Center the container */
+    width: 90%;
+    margin: 0 auto 50px auto;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .placeholder {
-    width: calc((300px) * 2 / 3); /* Reduce width by a third */
+    width: 100%;
     height: 300px;
-    background-color: rgba(244, 244, 244, 0.5); /* Transparent background */
+    background-color: rgba(244, 244, 244, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 18px;
     color: #333;
-    margin: 0 10px; /* Adjusted margin for spacing */
-}
-
-.placeholders .placeholder:first-child {
-    margin-left: 0; /* Remove left margin for the first placeholder */
-}
-
-.placeholders .placeholder:last-child {
-    margin-right: 0; /* Remove right margin for the last placeholder */
 }
 
 .new-container {
-    width: calc((100% - 80px) * 2 / 3); /* Reduce width by a third */
-    margin: 50px auto; /* Center the container */
+    width: 90%;
+    margin: 50px auto;
     text-align: center;
     border-top: 2px solid #333;
     border-bottom: 2px solid #333;
     padding: 20px 0;
-    background-color: rgba(244, 244, 244, 0.5); /* Transparent background */
+    background-color: rgba(244, 244, 244, 0.5);
 }
 
 .new-container h2 {
@@ -262,15 +256,16 @@ header {
 }
 
 .new-placeholders {
-    width: calc((100% - 80px) * 2 / 3); /* Reduce width by a third */
-    margin: 0 auto 50px auto; /* Center the container */
+    width: 90%;
+    margin: 0 auto 50px auto;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .new-placeholder {
-    width: calc((50% - 10px) * 2 / 3); /* Reduce width by a third */
-    background-color: rgba(244, 244, 244, 0.5); /* Transparent background */
+    width: 100%;
+    background-color: rgba(244, 244, 244, 0.5);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -292,13 +287,13 @@ header {
 }
 
 .key-values-container {
-    width: calc((100% - 80px) * 2 / 3); /* Reduce width by a third */
-    margin: 50px auto; /* Center the container */
+    width: 90%;
+    margin: 50px auto;
     text-align: center;
     border-top: 2px solid #333;
     border-bottom: 2px solid #333;
     padding: 20px 0;
-    background-color: rgba(244, 244, 244, 0.5); /* Transparent background */
+    background-color: rgba(244, 244, 244, 0.5);
 }
 
 .key-values-container h2 {
@@ -306,42 +301,43 @@ header {
 }
 
 .key-values-placeholders {
-    width: calc((100% - 80px) * 2 / 3); /* Reduce width by a third */
-    margin: 0 auto 50px auto; /* Center the container */
+    width: 90%;
+    margin: 0 auto 50px auto;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .key-values-placeholder {
-    width: calc(150px * 2 / 3); /* Reduce width by a third */
+    width: 100%;
     height: 150px;
-    background-color: rgba(244, 244, 244, 0.5); /* Transparent background */
+    background-color: rgba(244, 244, 244, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 18px;
     color: #333;
-    margin: 0 5px; /* Reduced margin for closer spacing */
 }
 
 .additional-container {
-    width: calc((100% - 80px) * 2 / 3); /* Reduce width by a third */
-    margin: 50px auto; /* Center the container */
+    width: 90%;
+    margin: 50px auto;
     text-align: center;
     padding: 20px 0;
-    background-color: rgba(244, 244, 244, 0.5); /* Transparent background */
+    background-color: rgba(244, 244, 244, 0.5);
 }
 
 .additional-container .half-container {
-    width: calc((100% - 80px) * 2 / 3); /* Reduce width by a third */
-    margin: 0 auto 20px auto; /* Center the container */
+    width: 100%;
+    margin: 0 auto 20px auto;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .half-container .left, .half-container .right {
-    width: calc((50% - 10px) * 2 / 3); /* Reduce width by a third */
-    background-color: rgba(244, 244, 244, 0.5); /* Transparent background */
+    width: 100%;
+    background-color: rgba(244, 244, 244, 0.5);
     padding: 20px;
     box-sizing: border-box;
     font-size: 18px;
@@ -358,7 +354,7 @@ header {
     margin: 50px auto;
     display: block;
     width: fit-content;
-    border: 2px solid white; /* Add a white border */
+    border: 2px solid white;
 }
 
 .download-button:hover {
@@ -375,7 +371,7 @@ header {
     margin: 20px auto;
     display: block;
     width: fit-content;
-    border: 2px solid white; /* Add a white border */
+    border: 2px solid white;
 }
 
 .back-button:hover {
@@ -385,12 +381,12 @@ header {
 footer {
     background: linear-gradient(to top, rgba(51, 51, 51, 1), rgba(51, 51, 51, 0));
     color: white;
-    padding: 20px; /* Adjusted padding to maintain spacing */
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative; /* Ensure the footer container is positioned relative */
-    z-index: 1000; /* Ensure footer is above other elements */
+    position: relative;
+    z-index: 1000;
 }
 
 .footer-logo-placeholder {
@@ -412,11 +408,56 @@ footer {
     text-decoration: none;
     border-radius: 20px;
     transition: box-shadow 0.3s ease-in-out;
-    position: absolute; /* Position the button absolutely */
-    right: 60px; /* 60px from the right margin */
-    border: 2px solid white; /* Add a white border */
+    position: absolute;
+    right: 60px;
+    border: 2px solid white;
 }
 
 .subscribe-button:hover {
     box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .contact-container {
+        margin-right: 0;
+    }
+
+    .sub-header {
+        padding: 30px;
+        margin-top: 60px;
+        margin-bottom: 10px;
+        height: auto;
+    }
+
+    .sub-header-logo {
+        width: 80px;
+        height: 80px;
+        margin-right: 10px;
+    }
+
+    .gif-placeholder, .catchphrase-container, .side-by-side-container, .mission-container, .statistics-container, .fractional-cfo-container, .placeholders, .new-container, .new-placeholders, .key-values-container, .key-values-placeholders, .additional-container, .half-container {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    .container, .stat-container, .placeholder, .new-placeholder, .key-values-placeholder, .half-container .left, .half-container .right {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .footer-logo-placeholder {
+        width: 80px;
+        height: 80px;
+        margin-left: 10px;
+    }
+
+    .subscribe-button {
+        right: 10px;
+    }
 }
