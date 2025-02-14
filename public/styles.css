@@ -89,6 +89,7 @@ header {
     margin-bottom: 20px;
     height: 200px; /* Adjust height as needed */
     position: relative;
+    z-index: 500; /* Ensure sub-header is above other elements */
 }
 
 .logo-container {
@@ -297,6 +298,10 @@ header {
     background-color: rgba(244, 244, 244, 0.5); /* Transparent background */
 }
 
+.key-values-container h2 {
+    margin-bottom: 50px;
+}
+
 .key-values-placeholders {
     display: flex;
     justify-content: space-between;
@@ -362,6 +367,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     position: relative; /* Ensure the footer container is positioned relative */
+    z-index: 1000; /* Ensure footer is above other elements */
 }
 
 .footer-logo-placeholder {
