@@ -428,6 +428,11 @@ footer {
         margin-right: 0;
     }
 
+    .contact-button {
+        padding: 5px 10px; /* Smaller padding for mobile */
+        font-size: 14px; /* Smaller font size for mobile */
+    }
+
     .sub-header {
         padding: 30px;
         margin-top: 60px;
