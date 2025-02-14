@@ -17,4 +17,5 @@ const SubHeader = () => (
   </div>
 );
 
-export { Footer, SubHeader };
+export default Footer;
+export { SubHeader };
