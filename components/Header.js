@@ -1,14 +1,23 @@
 import React from 'react';
+import Link from 'next/link';
 
 const Header = () => (
   <header id="header">
     <nav className="nav-links">
-      <a href="#about-us">About Us</a>
-      <a href="#fractional-cfo-services">Fractional CFO Services</a>
-      <a href="#media">Media</a>
+      <Link href="#about-us">
+        <a>About Us</a>
+      </Link>
+      <Link href="/fractional-cfo-services">
+        <a>Fractional CFO Services</a>
+      </Link>
+      <Link href="#media">
+        <a>Media</a>
+      </Link>
     </nav>
     <div className="contact-container">
-      <a href="#contact-us" className="contact-button">CONTACT US</a>
+      <Link href="#contact-us">
+        <a className="contact-button">CONTACT US</a>
+      </Link>
     </div>
   </header>
 );
