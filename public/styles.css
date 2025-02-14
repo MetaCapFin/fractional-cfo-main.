@@ -84,28 +84,18 @@ header {
 .sub-header {
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 20px;
     margin-top: 60px; /* Adjusted for fixed header */
     margin-bottom: 20px;
     height: 200px; /* Adjust height as needed */
     position: relative;
     z-index: 500; /* Ensure sub-header is above other elements */
-}
-
-.logo-container {
-    flex: 0 0 auto;
-    width: 100px; /* Adjust width as needed */
-    height: 100px; /* Adjust height as needed */
-    margin-right: 20px; /* Space between the logo and the text */
+    background-color: rgba(255, 255, 255, 0.5); /* Translucent background */
 }
 
 .text-container {
-    flex: 1;
     text-align: center;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .text-container h1 {
