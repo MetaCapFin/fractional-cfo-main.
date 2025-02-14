@@ -1,5 +1,7 @@
+b@import url('https://fonts.googleapis.com/css2?family=GT+America:wght@400;700&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'GT America', Arial, sans-serif;
     margin: 0;
     padding: 0;
     background: linear-gradient(to right, purple, cyan), 
@@ -293,16 +295,6 @@ header {
     border-bottom: 2px solid #333;
     padding: 20px 0;
     background-color: rgba(244, 244, 244, 0.5); /* Transparent background */
-}
-
-.key-values-container h2 {
-    margin-bottom: 50px;
-}
-
-.key-values-placeholders {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 50px; /* Padding equal to the top padding */
 }
 
 .key-values-placeholders {
