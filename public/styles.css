@@ -365,6 +365,23 @@ header {
     box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
 }
 
+.back-button {
+    background: linear-gradient(to right, purple, cyan);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: box-shadow 0.3s ease-in-out;
+    margin: 20px auto;
+    display: block;
+    width: fit-content;
+    border: 2px solid white; /* Add a white border */
+}
+
+.back-button:hover {
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+}
+
 footer {
     background: linear-gradient(to top, rgba(51, 51, 51, 1), rgba(51, 51, 51, 0));
     color: white;
