@@ -85,13 +85,13 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 60px; /* Add padding of 60px from the container's margin */
     margin-top: 60px; /* Adjusted for fixed header */
     margin-bottom: 20px;
     height: 200px; /* Adjust height as needed */
     position: relative;
     z-index: 500; /* Ensure sub-header is above other elements */
-    background-color: rgba(255, 255, 255, 0.5); /* Translucent background */
+    background-color: transparent; /* Make the sub-header background completely transparent */
 }
 
 .text-container {
@@ -107,6 +107,12 @@ header {
     margin: 0;
     color: white; /* Ensure the text is readable on the gradient background */
     font-size: 0.8em; /* Smaller font size for the subtitle */
+}
+
+.sub-header-logo {
+    width: 100px; /* Adjust width as needed */
+    height: 100px; /* Adjust height as needed */
+    margin-right: 20px; /* Space between the logo and the text */
 }
 
 .gif-placeholder {
