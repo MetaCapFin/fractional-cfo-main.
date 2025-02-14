@@ -15,16 +15,9 @@ const FractionalCFO = () => (
     <Header />
     <main>
       <SubHeader />
-      <GifPlaceholder />
-      <CatchphraseContainer />
-      <SideBySideContainer />
       <MissionContainer />
-      <StatisticsContainer />
       <a href="#schedule-meeting" className="schedule-button">SCHEDULE A MEETING</a>
       <FractionalCFOContainer />
-      <NewContainer />
-      <KeyValuesContainer />
-      <AdditionalContainer />
     </main>
     <Footer />
   </div>
