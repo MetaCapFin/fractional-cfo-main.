@@ -1,8 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import Header from '../components/Header';
-import Footer from '../components/Footer';
-import SubHeader from '../components/SubHeader';
+import Footer, { SubHeader } from '../components/Footer'; // Updated import statement
 import GifPlaceholder from '../components/GifPlaceholder';
 import CatchphraseContainer from '../components/CatchphraseContainer';
 import SideBySideContainer from '../components/SideBySideContainer';
