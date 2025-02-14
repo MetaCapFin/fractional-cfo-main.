@@ -55,30 +55,18 @@ header {
     margin-right: 0; /* Reset any margin on the container */
 }
 
-.contact-button {
+.contact-button, .button, .schedule-button, .download-button, .subscribe-button {
     background: linear-gradient(to right, purple, cyan);
     color: white;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 20px;
     transition: box-shadow 0.3s ease-in-out;
-    margin-right: 60px; /* Add margin to the right of the button */
-}
-.contact-button:hover {
-    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+    border: 2px solid white; /* Add a white border */
 }
 
-.button {
-    background: linear-gradient(to right, purple, cyan);
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 20px;
-    transition: box-shadow 0.3s ease-in-out;
-}
-
-.button:hover {
-    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+.contact-button:hover, .button:hover, .schedule-button:hover, .download-button:hover, .subscribe-button:hover {
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7); /* Keep the glow effect */
 }
 
 .sub-header {
@@ -211,6 +199,7 @@ header {
     margin: 50px auto;
     display: block;
     width: fit-content;
+    border: 2px solid white; /* Add a white border */
 }
 
 .schedule-button:hover {
@@ -369,6 +358,7 @@ header {
     margin: 50px auto;
     display: block;
     width: fit-content;
+    border: 2px solid white; /* Add a white border */
 }
 
 .download-button:hover {
@@ -407,6 +397,7 @@ footer {
     transition: box-shadow 0.3s ease-in-out;
     position: absolute; /* Position the button absolutely */
     right: 60px; /* 60px from the right margin */
+    border: 2px solid white; /* Add a white border */
 }
 
 .subscribe-button:hover {
